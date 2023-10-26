@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    --main-bg-color: #2874f0;
+}
+
+footer {
+    height: 10vh;
+    background-color: var(--main-bg-color);
+    color: white;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+
+
+
+nav {
+    background: var(--main-bg-color);
+    display: flex;
+    padding: 0px 34px;
+    margin-bottom: 15px;
+    height: 10vh;
+    position: fixed;
+    top: 0;
+}
+
+nav ul li a {
+    color: white;
+    width: 30px;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0px 36px;
+}
+
+nav ul {
+    height: 10vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+nav li:hover {
+    /* background-color: black; */
+    /* text-decoration:underline; */
+    color: white;
+    font-weight: bolder;
+    list-style: circle;
+}
+
+nav img {
+    width: 155px;
+    padding: 0px 36px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+
+.container {
+    min-height: calc(90vh - 10vh - 10vh);
+
+}
+.card{
+    margin: auto;
+    width: 98%;
+    background: white;
+    border: 1px solid white;
+    display: flex;
+    height: 320px;
+    overflow:hidden;
+    margin-bottom: 10px;
+}
+
+.card img   {
+    padding: 10px 0px;
+    cursor: pointer;
+}
+#searchbar {
+    width: 440px;
+    height: 27px;
+    padding: 0px 10px;
+    font-size: 14px;
+    border-radius: 7px;
+    border: solid white;
+    outline: 0 none;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    margin: 0px 50px;
+}
+
+.btn {
+    background-color: var(--main-bg-color);
+    color: white;
+    height: 27px;
+    padding: 4px 5px;
+    margin: 0px 13px;
+    cursor: pointer;
+    border: 1px white solid;
+    
+    /* border-radius: 8px; */
+}
+.btn:hover{
+    background-color: white;
+    color: black;
+}
+.card>div{
+    margin: 22px 24px;
+}
+/* .item1{
+    margin: 22px 0px;
+} */
+.heading{
+    margin: auto;
+    width: 98%;
+    background-color: white;
+    margin-bottom: 2px;
+    font-family: 'Baloo Bhai 2', cursive;
+    height: 52px;
+    
+}
+.h{
+    margin: 10px 11px;
+}
+.card img:hover{
+    height: 153px;
+    width: 153px;
+}
+.heading{
+    height: 60px;
+    background-color: white;
+}
+/* .time{
+    display: inline-block;
+}
+.butn{
+    display: inline-block;
+} */
+.heading>div{
+    display: inline-block;
+}
+.butn{
+    float: right;   
+    margin: 9px 16px;
+}
+.butn button{
+    background-color: var(--main-bg-color);
+    color: white;
+    height: 41px;
+    width: 93px;
+    border: solid white;
+    padding: 0px 13px;
+    cursor: pointer;
+}
+.time input{
+    border: solid white;
+    font-size: 18px;
+}
+.time{
+    margin: 0px 10px;
+}

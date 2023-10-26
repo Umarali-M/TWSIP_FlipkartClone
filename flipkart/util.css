@@ -1,0 +1,86 @@
+.text-all-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+body{
+    background-color: #f1f3f6;
+    background-image: url();
+}
+
+.item1{
+    display: block;
+}
+.end{
+    height: 100px;
+    align-self: center;
+    justify-self: end;
+    width: 47px;
+    outline: none;
+    font-size: 41px;
+    font-weight: bolder;
+    border: solid white;
+    background-color: hsla(0,0%,100%,.98);
+    pointer-events: auto;
+    box-shadow: 1px 2px 10px -1pxrgba(0,0,0,.3);
+    cursor: pointer;
+}
+.main{
+    margin: auto;
+    width: 74%;
+    height: 600px;
+    margin-top: 80px;
+    margin-bottom: 10px;
+    box-shadow: 1px 3px 15px 10px silver;
+    background-image: url("img/main.jpg");
+    background-size: 100% 100%;
+    animation: slider 10s cubic-bezier(1,-0.18, 1, 0.53) 3s infinite;
+    cursor:grab;
+}
+
+
+.main img{
+    height: 100%;
+    width: 100%;
+}
+.text-center{
+    text-align: center;
+    margin:10px 0px;
+}
+.my-1{
+    font-weight: bolder;
+}
+.my-2 a{
+    text-decoration: none;
+    color: lightgreen;
+}
+.my-3{
+    color:rgb(230, 214, 214);
+}
+.card1{
+    margin-bottom: 60px;
+}
+.image{
+    height: 150px;
+    width: 150px;
+    padding-bottom: 15px;
+
+}
+@keyframes slider {
+    0%{
+        background-image: url("/img/main.jpg");
+        /* background-size: 100% 100%; */
+    }
+    35%{
+        background-image: url("/img/main3.jpg");
+        /* background-size: 100% 100%; */
+    }
+    70%{
+        background-image: url("/img/main2.jpg");
+        /* background-size: 100% 100%; */
+    }
+    90%{
+        background-image: url("/img/main1.jpg");
+        /* background-size: 100% 100%; */
+    }
+}
